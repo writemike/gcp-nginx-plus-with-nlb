@@ -1,5 +1,5 @@
 # GKE specific variables
-project_id                    = ""
+project_id                    = "f5-gcs-4299-sales-se-nginx"
 region                        = "australia-southeast1"
 network                       = "gce-api-vpc"
 gwy_subnet                    = "api-gwy-subnet"
@@ -12,4 +12,4 @@ microservice_subnet_cidr      = "10.20.0.0/24"
 weather_api_image             = "weather-api-v1" # depends the image you created using packer
 f1_api_image                  = "f1-api-v1"
 hello_nginx_api_image         = "hello-nginxplus-api-v1"
-prefix                        = "raj" //keep it within 3-5 letters as the code is also generating unique petname along with it.
+prefix                        = "mholl" //keep it within 3-5 letters as the code is also generating unique petname along with it.
